@@ -1,0 +1,115 @@
+.frame-1 {
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 40px;
+    gap: 59px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 31px 149px;
+}
+
+.title-group {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+    width: fit-content;
+}
+
+.title {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxl);
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    width: fit-content;
+}
+
+.glckwunsch-sieh-di {
+    color: var(--black-4);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    width: 420px;
+}
+
+.reward {
+    align-items: center;
+    background-color: #efefef;
+    border: 1px solid;
+    border-color: #00000033;
+    border-radius: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 10px 20px;
+    width: fit-content;
+}
+
+.frame {
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.name {
+    color: var(--black-4);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    width: fit-content;
+}
+
+.rectangle-1 {
+    align-self: stretch;
+    background-color: #00000033;
+    height: 31px;
+    min-width: 1px;
+}
+
+.xyz-000 {
+    color: var(--black-4);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    width: fit-content;
+}
+
+.einlsen {
+    align-items: flex-start;
+    background-color: #1c58f2;
+    border-radius: 40px;
+    display: flex;
+    gap: 10px;
+    padding: 14px 107px;
+    width: fit-content;
+    color: #ffffff;
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    border: none;
+}
+
+.einlsen:hover {
+    cursor: pointer;
+}
+
+.frame-4 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}

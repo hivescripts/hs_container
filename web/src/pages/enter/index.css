@@ -1,0 +1,96 @@
+.frame-1 {
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 59px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 31px 149px;
+    width: fit-content;
+}
+
+.title-group {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+    width: fit-content;
+}
+
+.code-title {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxl);
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    width: fit-content;
+}
+
+.code-description {
+    color: #0000009e;
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    width: 290px;
+}
+
+.component-keyinput {
+    align-items: center;
+    background-color: #efefef;
+    border: 1px solid;
+    border-color: #00000033;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 13px 35px;
+    color: #0000009e;
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    transition: border 0.2s ease-in-out;
+}
+
+.component-keyinput:is(:focus, :active) {
+    outline: none;
+    border-color: #00000063;
+}
+
+.confirm {
+    align-items: flex-start;
+    background-color: #1c58f2;
+    border-radius: 40px;
+    padding: 14px 107px;
+    color: #ffffff;
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    border: none;
+    transition: background 0.2s ease-in-out;
+}
+
+.confirm:hover {
+    cursor: pointer;
+    background-color: #1c58f2e8;
+}
+
+.confirm:is(:focus, :active) {
+    outline: none;
+    background-color: #1c58f2e8;
+}
+
+.component {
+    display: flex;
+    gap: 10px;
+    width: fit-content;
+}

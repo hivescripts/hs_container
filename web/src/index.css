@@ -1,0 +1,47 @@
+html { font-family: "Inter", "system-ui"; }
+
+@supports (font-variation-settings: normal) {
+    html { font-family: "Inter var", "system-ui"; }
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+:root { 
+    --black: #000000;
+    --black-2: #000000;
+    --black-3: #00000033;
+    --black-4: #0000009e;
+    --gallery: #efefef;
+   
+    --font-size-m: 20px;
+    --font-size-l: 26px;
+    --font-size-xl: 28px;
+    --font-size-xxl: 40px;
+
+    --font-family-inter: "Inter", Helvetica;
+}  

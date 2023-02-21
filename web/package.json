@@ -1,0 +1,28 @@
+{
+    "name": "hs_container",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build --base=./",
+        "game:dev": "tsc && vite build --base=./ --watch",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "inter-ui": "^3.19.3",
+        "localforage": "^1.10.0",
+        "match-sorter": "^6.3.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.8.0",
+        "sort-by": "^0.0.2"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.27",
+        "@types/react-dom": "^18.0.10",
+        "@vitejs/plugin-react": "^3.1.0",
+        "typescript": "^4.9.3",
+        "vite": "^4.1.0"
+    }
+}
