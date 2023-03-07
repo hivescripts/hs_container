@@ -1,4 +1,5 @@
 # hs_container
+![preview](https://www.hive-scripts.net/media/container.png)
   
 ## Description
   - Players can use a key to open a container and choose one of six options
