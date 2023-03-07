@@ -1,8 +1,8 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'HiveScripts at hive-scripts.net'
-description ''
+author 'HiveScripts'
+description 'Contaíner script for FiveM'
 version '1.0.0'
 
 ui_page 'web/dist/index.html'
@@ -32,4 +32,8 @@ server_scripts {
 
 server_exports {
     'generateKey'
+}
+
+depencencies {
+    'oxmysql'
 }
