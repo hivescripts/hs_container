@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'HiveScripts'
 description 'Contaíner script for FiveM'
-version '1.0.0'
+version '1.0.1'
 
 ui_page 'web/dist/index.html'
 files {
