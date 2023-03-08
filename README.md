@@ -1,6 +1,9 @@
 # hs_container
 ![preview](https://www.hive-scripts.net/media/container.png)
-  
+
+## Need help?
+Join our [Discord](http://discord.hive-scripts.net)
+
 ## Description
   - Players can use a key to open a container and choose one of six options
   - The selection of the reward is random, and there is no way to manipulate this behavior
